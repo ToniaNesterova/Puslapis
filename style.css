@@ -4,6 +4,25 @@
     box-sizing: border-box;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headerTwo {
+    font-size: 3rem;
+    color: black;
+
+}
+
 
 .topLine {
     background-color: #60267F;
@@ -31,10 +50,7 @@
 }
 
 .navigationContainer {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+     gap: 20px;
 }
 
 .headerList {
@@ -60,5 +76,126 @@ transition: 0.1s ease-in;
 
 .headerBtn:hover {
     background-color: #9A54BC;
+    color: white;
+   
+}
+
+.section1 {
+    margin-top: 100px;
+    
+}
+
+.headingContainer {
+    gap: 50px;
+    text-align: center;
+}
+
+
+.heading {
+    font-size: 3rem;
+    color:#2B0236;
+}
+
+.headingBtn {
+    padding: 20px 32px;
+    background-color: #9A54BC;
+    color: white;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.headingBtn:hover {
+background-color: white;
+color: #9A54BC;
+
+}
+
+.firstPhoneContainer {
+    height: 500px;
+}
+
+
+.reliative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.smallElipse {
+    top: 65px;
+}
+
+.rectangle {
+    top: 76px;
+}
+
+.collabWord {
+    top: 175px;
+}
+
+.elipseBtn {
+    bottom: 110px;
+    width: 140px;
+    padding: 10px 15px;
+    color: #60267F;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.topBrandsContainer {
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.iconsContainer {
+    gap: 150px;
+}
+
+.iconsContainer img {
+width: 100px;
+
+}
+
+.collabAppHelpContainer {
+    margin-top: 100px;
+    gap: 75px;
+}
+
+.mainContainer {
+    justify-content: space-between;
+}
+
+.leftparaContainer {
+    width: 40%;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    gap: 5px;
+    -webkit-box-shadow: 0px 11px 10px -14px #000000; 
+box-shadow: 0px 11px 10px -14px #000000;
+}
+
+.buttonContainer button {
+    width: 50%;
+    padding: 10px;  
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.buttonContainer button:hover {
+    border: 2px solid #9A54BC;
+    background-color: #60267F;
     color: white;
 }
