@@ -360,10 +360,6 @@ font-weight: 500;
     cursor: pointer;
 }
 
-.bigCard button:hover {
-    
-}
-
 .bigCardListContainer {
     gap: 15px;
     align-items: flex-start;
@@ -389,3 +385,42 @@ font-weight: 500;
     color: rgba(0, 0, 0, 7);
     font-size: 12px;
 }
+
+.starsContainer {
+    margin-top: 100px;
+    gap: 50px;
+    }
+
+.starsImgContainer {
+    gap: 5px;
+
+}
+
+.ArrowLeft {
+    width: 35px;
+    position: relative;
+}
+
+.starsContainerPara {
+    gap: 230px;
+    width: 85%;
+}
+
+.starsContainerPara p {
+font-weight: 500;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+margin-block: 10px;
+
+}
+
+.roundPhotoContainer {
+    
+}
+
+
+
+
+
+
